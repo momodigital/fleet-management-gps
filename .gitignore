@@ -1,0 +1,48 @@
+# Ignore configuration files
+includes/config.php
+
+# Ignore logs
+logs/*.log
+logs/.htaccess
+
+# Ignore exports
+exports/*.csv
+exports/*.xlsx
+exports/*.pdf
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swo
+*.swp
+*.lock
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# Ignore sensitive files
+*.sql.bak
+*.sql.old
+*.backup
+*.bak
+*.old
+
+# Ignore vendor if using composer
+/vendor/
+
+# Ignore node_modules if using npm
+/node_modules/
+
+# Ignore environment files
+.env
+.env.local
+.env.production
